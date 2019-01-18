@@ -1,0 +1,43 @@
+{
+    "name": "gitignoreadd",
+    "displayName": "gitignore.add",
+    "description": "Add file to .gitignore",
+    "icon": "images/icon.png",
+    "version": "1.0.1",
+    "publisher": "AnAppWiLos",
+    "engines": {
+        "vscode": "^1.0.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "giti.add",
+                "title": "Add to .gitignore"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "command": "giti.add",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.10",
+        "vscode": "^0.11.13"
+    }
+}

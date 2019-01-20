@@ -1,44 +1,79 @@
 {
-    "name": "gitignoreadd",
-    "displayName": "gitignore.add",
-    "description": "Add file to .gitignore",
-    "icon": "images/icon.png",
-    "version": "1.0.1",
+    "name": "AnGitIgnored",
+    "displayName": "An GitIgnored",
+    "description": "Tool that facilitates the management of .ignore files",
+    "license": "MIT",
+    "preview": true,
+    "icon": "images/logoAnGitIgnoredV000003.png",
+    "version": "1.1.0",
     "publisher": "AnAppWiLos",
     "engines": {
-        "vscode": "^1.0.1"
+        "vscode": "^1.19.0"
     },
+    "keywords": [
+        "git",
+        "gitHub",
+        ".gitignore",
+        "vs"
+    ],
     "categories": [
-        "Snippets"
+        "Git"
     ],
     "activationEvents": [
         "*"
     ],
-    "main": "./out/src/extension",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anappwilos/gitignore.git"
+    },
+    "homepage": "https://github.com/anappwilos/gitignore.git",
+    "bugs": {
+        "url": "https://github.com/anappwilos/gitignore.git"
+    },
+    "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "giti.add",
-                "title": "Add to .gitignore"
+                "command": "extension.addGitignored",
+                "title": "Add Gitignored : ➕Add to .gitignore"
+            },
+            {
+                "command": "extension.hideGitignored",
+                "title": "Hide Gitignored: 👻Hide files ignored by .gitignore"
+            },
+            {
+                "command": "extension.showGitignored",
+                "title": "Show Gitignored: 👁‍🗨Show files ignored by .gitignore"
             }
         ],
         "menus": {
             "explorer/context": [
                 {
-                    "command": "giti.add",
+                    "command": "extension.addGitignored",
+                    "group": "navigation"
+                },
+                {
+                    "command": "extension.hideGitignored",
+                    "group": "navigation"
+                },
+                {
+                    "command": "extension.showGitignored",
                     "group": "navigation"
                 }
             ]
         }
     },
     "scripts": {
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "@types/node": "^10.12.18",
-        "typescript": "^1.8.10",
-        "vscode": "^0.11.13"
+        "@types/mocha": "^2.2.48",
+        "@types/node": "^7.0.66",
+        "typescript": "^2.9.2",
+        "vscode": "^1.1.18"
     }
 }

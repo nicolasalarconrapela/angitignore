@@ -4,8 +4,8 @@
     "description": "Tool that facilitates the management of .ignore files",
     "license": "MIT",
     "preview": true,
-    "icon": "images/logoAnGitIgnoredV000003.png",
-    "version": "1.1.0",
+    "icon": "images/logoAnGitIgnoredV000007.png",
+    "version": "1.1.1",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.19.0"

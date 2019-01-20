@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Image](images/logoAnGitIgnoredV000003.png)
+![Image](images/logoAnGitIgnoredV000007.png)
 
 </div>
 

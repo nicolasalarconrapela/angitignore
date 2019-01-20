@@ -47,7 +47,7 @@ export function activate(context: ExtensionContext): void {
 
 
     let disposableGitGenerator = vscode.commands.registerCommand(
-        "extension.gitignoreGenerate",
+        "extension.generateGitignored",
         () => {
             try {
                 const generator = new Generator();

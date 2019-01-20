@@ -9,7 +9,7 @@
         "color": "#373737",
         "theme": "dark"
     },
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.19.0"
@@ -51,7 +51,7 @@
                 "title": "Show Gitignored: 👁‍🗨Show files ignored by .gitignore"
             },
             {
-                "command": "extension.gitignoreGenerate",
+                "command": "extension.generateGitignored",
                 "title": "Generate Gitignored: 📝Generate the file .gitignore"
             }
         ],
@@ -70,7 +70,7 @@
                     "group": "navigation"
                 },
                 {
-                    "command": "extension.gitignoreGenerate",
+                    "command": "extension.generateGitignored",
                     "group": "navigation"
                 }
             ]

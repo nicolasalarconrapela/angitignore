@@ -3,7 +3,6 @@ import * as fs from 'fs';
 
 export function activate(context: vscode.ExtensionContext) {
 
-
     let disposable = vscode.commands.registerCommand('giti.add', (selectedFile) => {
         let filePath: string = selectedFile.path.substr(vscode.workspace.rootPath.length + 1, selectedFile.path.length)
         fs.open(vscode.workspace.rootPath + '/.gitignore', 'a', function (err, fd) {

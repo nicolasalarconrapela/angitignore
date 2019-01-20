@@ -21,8 +21,13 @@ Right click on the file to be added in .gitignore.
     npm install npm@latest -g
     npm install -g yo
     npm install -g generator-code
-    npm install -g vsce
-
+    npm install -g vsce 
+    npm install -g typescript
+    
+    npm install --save-dev @types/node
+    npm i @types/mocha
+    npm install "@types/node" --save-dev 
+    
 <!-- https://code.visualstudio.com/api/working-with-extensions/publishing-extension -->
 <!-- https://medium.com/@Ealsur/extensiones-en-visual-studio-code-39463fee452e -->
 

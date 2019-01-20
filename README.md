@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Image](images/logoAnGitIgnoredV000007.png)
+![Image](/images/logoAnGitIgnoredV000007.png)
 
 </div>
 
@@ -40,7 +40,7 @@ Right click on the file to be added in .gitignore.
 ## Commands
 
     vsce package
-    code --install-extension my-extension-0.0.1.vsix
+    code --install-extension angitignored-1.2.0.vsix
  <!--   
     npm install --save-dev @types/node
     npm i @types/mocha

@@ -1,5 +1,7 @@
-# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-
+# ---------------------------------
+# File created using 'AnGitIgnored' extensions for Visual Studio Code: 
+# https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.gitignoreadd
+# ---------------------------------
 # Created by https://www.gitignore.io/api/node,macos,visualstudiocode
 
 ### macOS ###
@@ -108,3 +110,4 @@ node_modules
 .vscode-test/
 *.vsix
 /.ToolsSub
+/releases

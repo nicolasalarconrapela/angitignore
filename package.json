@@ -1,11 +1,15 @@
 {
-    "name": "AnGitIgnored",
+    "name": "angitignored",
     "displayName": "An GitIgnored",
     "description": "Tool that facilitates the management of .ignore files",
     "license": "MIT",
     "preview": true,
-    "icon": "images/logoAnGitIgnoredV000007.png",
-    "version": "1.1.1",
+    "icon": "images/logoAnGitIgnoredV00000701.png",
+    "galleryBanner": {
+        "color": "#373737",
+        "theme": "dark"
+    },
+    "version": "1.2.0",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.19.0"
@@ -14,10 +18,11 @@
         "git",
         "gitHub",
         ".gitignore",
-        "vs"
+        "gitignore.io",
+        "gitignore generator"
     ],
     "categories": [
-        "Git"
+        "SCM Providers"
     ],
     "activationEvents": [
         "*"
@@ -44,6 +49,10 @@
             {
                 "command": "extension.showGitignored",
                 "title": "Show Gitignored: 👁‍🗨Show files ignored by .gitignore"
+            },
+            {
+                "command": "extension.gitignoreGenerate",
+                "title": "Generate Gitignored: 📝Generate the file .gitignore"
             }
         ],
         "menus": {
@@ -59,6 +68,10 @@
                 {
                     "command": "extension.showGitignored",
                     "group": "navigation"
+                },
+                {
+                    "command": "extension.gitignoreGenerate",
+                    "group": "navigation"
                 }
             ]
         }
@@ -71,9 +84,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "@types/mocha": "^2.2.48",
-        "@types/node": "^7.0.66",
-        "typescript": "^2.9.2",
-        "vscode": "^1.1.18"
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^7.0.43",
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1",
+        "vscode": "^0.10.6"
     }
 }

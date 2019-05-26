@@ -1,9 +1,7 @@
-<img align="right" src="https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/images/logoAnGitIgnoredV00000801.png" width="180px" height="100px">
+<img align="right" src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/logoAnGitIgnoredV00000904.png" width="80px" height="80px">
 <h1 align="left">AnGitIgnored</h1>
 
-![GifUsage](https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/Readme_images/Usage.gif)
-
-![](images/logoAnGitIgnoredV00000904.png)
+![GifUsage](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Usage.gif)
 
 ## About 
 
@@ -34,7 +32,7 @@ with this `Visual Studio Code` Extension.
 
 Right click on the file to be added in .gitignore :
 
-![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/Readme_images/Readme01.png)
+![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Readme01.png)
 
 Select an options :
 

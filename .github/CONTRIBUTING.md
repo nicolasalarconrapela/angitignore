@@ -1,8 +1,8 @@
-# Contributing to HTML5 Boilerplate
+# Contributing to AnGitIgnored
 
-♥ [HTML5 Boilerplate](https://html5boilerplate.com/) and want to get involved?
-Thanks! We're actively looking for folks interested in helping out and there 
-are plenty of ways you can help!
+:information_source: [AnGitIgnored](https://cibergenius.org/AnGitIgnored) and want to get involved?
+
+Thanks! We're actively looking for folks interested in helping out and there are plenty of ways you can help!
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -15,26 +15,18 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/h5bp/html5-boilerplate/issues) is
+The [issue tracker](https://github.com/nicolasalarconrapela/) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
 
 * Please **do not** use the issue tracker for personal support requests (use
-  [Stack Overflow](https://stackoverflow.com/questions/tagged/html5boilerplate)).
+  [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode-extensions)).
 
-* Please **do not** derail or troll issues. Keep the discussion on topic and
-  respect the opinions of others.
-
-* Please **do not** open issues or pull requests regarding the code in
-  [`.htaccess`](https://github.com/h5bp/server-configs-apache),
-  [`jQuery`](https://github.com/jquery/jquery/),
-  [`Modernizr`](https://github.com/Modernizr/Modernizr) or
-  [`Normalize.css`](https://github.com/necolas/normalize.css) (open them in
-  their respective repositories).
-
+* Please **do not** derail or troll issues. Keep the discussion on topic and  respect the opinions of others.
 
 <a name="bugs"></a>
+
 ## Bug reports
 
 A bug is a _demonstrable problem_ that is caused by the code in the repository.
@@ -77,6 +69,7 @@ Example:
 
 
 <a name="features"></a>
+
 ## Feature requests
 
 Feature requests are welcome. But take a moment to find out whether your idea
@@ -86,6 +79,7 @@ provide as much detail and context as possible.
 
 
 <a name="pull-requests"></a>
+
 ## Pull requests
 
 Good pull requests - patches, improvements, new features - are a fantastic
@@ -108,11 +102,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/html5-boilerplate.git
+   git clone https://github.com/<your-username>/
    # Navigate to the newly cloned directory
-   cd html5-boilerplate
+   cd AnLibrary
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/h5bp/html5-boilerplate.git
+   git remote add upstream https://github.com/nicolasalarconrapela/
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -130,25 +124,4 @@ included in the project:
    ```
 
 4. Commit your changes in logical chunks. Please adhere to these [git commit
-   message guidelines](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-   or your code is unlikely be merged into the main project. Use Git's
-   [interactive rebase](https://help.github.com/articles/about-git-rebase/)
-   feature to tidy up your commits before making them public.
-
-5. Locally merge (or rebase) the upstream development branch into your topic branch:
-
-   ```bash
-   git pull [--rebase] upstream master
-   ```
-
-6. Push your topic branch up to your fork:
-
-   ```bash
-   git push origin <topic-branch-name>
-   ```
-
-7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
-
-**IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](LICENSE.txt).
+   message guidelines](https://tbaggery.com/2008/04/1)

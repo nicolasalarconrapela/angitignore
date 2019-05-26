@@ -1,63 +1,94 @@
-# AnGitIgnored
-
 <div align="center">
 
-![Image](/images/logoAnGitIgnoredV000007.png)
+![Image](/images/logoAnGitIgnoredV00000801.png)
 
 </div>
 
-[⬇️Download](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.gitignoreadd)
+# AnGitIgnored
+
+## About 
+
+Repository that facilitates the management of `.ignore` files.
+
+## Install
+
+    # npm install -g vsce
+    vsce package
+    code --install-extension angitignored-1.2.0.vsix
+
+## Repositories
+
+[⬇️ Download](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.gitignoreadd)
 
 ## Description
 
 You can :
 
 - Add specif file in `.gitignore`
-- Show/Hide the files in `.gitignore`
+- Create an blank `.gitignore`
+- Generate/Update file `.gitignore` from [gitignore.io](https://www.gitignore.io/)
+- Show/Hide the files in the `.gitignore`
 
 with this `Visual Studio Code` Extension.
 
-## Use
+## Usage
 
-Right click on the file to be added in .gitignore.
+Right click on the file to be added in .gitignore :
 
-![README](Readme_images/README.png)
+![Readme1](Readme_images/Readme01.png)
+
+Select an options :
+
+| Action                | Description                                                                     |
+|-----------------------|---------------------------------------------------------------------------------|
+| `Add GitInored`       | **CREATE** a blank `.gitignore`                                                 |
+| `Generate GitIgnored` | **GENERATE** a `.gitignore` from the files that we select in the command window |
+| - `Update`            | **Add** the selected framework to `.gitignore`                                  |
+| - `Override`          | **Overwrite** `.gitignore` the selected framework                               |
+| `Hide GitIgnored`     | **HIDES** a the files that are in the `.gitignore`                              |
+| `Show GitIgnored`     | **SHOW** the files that have been hidden because they are in the `.gitignore`   |
 
 ## Developers
 
-# Run this project
+### Run this project
 
     npm install
     
 ### Tools for developer this project
 
-    npm install npm@latest -g
+    npm install -g npm@latest 
     npm install -g yo
     npm install -g generator-code
     npm install -g vsce 
-    #npm install -g typescript
-    npm install -g typescript@2.1.1 
-    
-## Features
+    npm install -g typescript
 
-- [ ] Files are tracked
-
-## Commands
-
-    vsce package
-    code --install-extension angitignored-1.2.0.vsix
-    
 ### Automatic update the dependencies
 
     npm install -g npm-check-updates
     ncu -u --packageFile package.json
+    
+### Some reference guide to develop extension in VSCode
 
- <!--   
-    npm install --save-dev @types/node
-    npm i @types/mocha
-    npm install "@types/node" --save-dev 
- -->  
-<!-- https://code.visualstudio.com/api/working-with-extensions/publishing-extension -->
-<!-- https://medium.com/@Ealsur/extensiones-en-visual-studio-code-39463fee452e -->
+* [code.visualstudio.com](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+* [medium.com](https://medium.com/@Ealsur/extensiones-en-visual-studio-code-39463fee452e)
+* [geeks.ms](https://geeks.ms/jorge/2017/07/17/crear-nuestra-primera-extension-para-visual-studio-code-i/)
 
-<!-- https://geeks.ms/jorge/2017/07/17/crear-nuestra-primera-extension-para-visual-studio-code-i/ -->
+## ChangeLog
+
+- [CHANGELOG](CHANGELOG)
+
+## Features
+
+- [FEATURES](FEATURES)
+
+## Compilation the bugs
+
+- [History](History.md)
+
+## LICENSE
+
+- [MIT](LICENSE)
+
+## AUTHORS 
+
+- [nicolasalarconrapela](https://github.com/nicolasalarconrapela)

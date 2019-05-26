@@ -7,17 +7,10 @@
 ## Notes:
 
 * Please **do not** use the issue tracker for personal support requests (use
-  [Stack Overflow](https://stackoverflow.com/questions/tagged/html5boilerplate)).
+[Stack Overflow](https://stackoverflow.com/questions/tagged/vscode-extensions)).
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
-
-* Please **do not** open issues or pull requests regarding the code in
-  [`.htaccess`](https://github.com/h5bp/server-configs-apache),
-  [`jQuery`](https://github.com/jquery/jquery/),
-  [`Modernizr`](https://github.com/Modernizr/Modernizr) or
-  [`Normalize.css`](https://github.com/necolas/normalize.css) (open them in
-  their respective repositories).
 
 ## Bug reports
 
@@ -70,5 +63,3 @@ Feature requests are welcome. But take a moment to find out whether your idea
 fits with the scope and aims of the project. It's up to *you* to make a strong
 case to convince the project's developers of the merits of this feature. Please
 provide as much detail and context as possible.
-
-

@@ -1,25 +1,21 @@
-![Gif](Readme_images/Usage.gif)
-<div align="center">
+<img align="right" src="https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png" width="180px" height="100px">
+<h1 align="left">AnGitignored</h1>
 
-![Logo-Image](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png)
-
-</div>
-
-# AnGitIgnored
+![Gif](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/Readme_images/Usage.gif)
 
 ## About 
 
 Repository that facilitates the management of `.ignore` files.
+
+## Repositories
+
+[⬇️ Download](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png)
 
 ## Install
 
     # npm install -g vsce
     vsce package
     code --install-extension angitignored-1.2.0.vsix
-
-## Repositories
-
-[⬇️ Download](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png)
 
 ## Description
 

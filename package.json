@@ -4,12 +4,12 @@
     "description": "Tool that facilitates the management of .ignore files",
     "license": "MIT",
     "preview": true,
-    "icon": "images/logoAnGitIgnoredV00000904.png",
+    "icon": "Readme_images/logoAnGitIgnoredV00000904.png",
     "galleryBanner": {
         "color": "#003152",
         "theme": "dark"
     },
-    "version": "1.2.8",
+    "version": "1.2.9",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.22.0"

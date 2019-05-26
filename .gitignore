@@ -254,3 +254,4 @@ node_modules
 /.ToolsSub
 /releases
 /node_modules_null
+/.vscode

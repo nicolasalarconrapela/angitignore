@@ -1,7 +1,7 @@
-<img align="right" src="https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png" width="180px" height="100px">
-<h1 align="left">AnGitignored</h1>
+<img align="right" src="https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/images/logoAnGitIgnoredV00000801.png" width="180px" height="100px">
+<h1 align="left">AnGitIgnored</h1>
 
-![Gif](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/Readme_images/Usage.gif)
+![GifUsage](https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/Readme_images/Usage.gif)
 
 ## About 
 
@@ -9,13 +9,13 @@ Repository that facilitates the management of `.ignore` files.
 
 ## Repositories
 
-[⬇️ Download](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png)
+[⬇️ Download](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored)
 
 ## Install
 
     # npm install -g vsce
     vsce package
-    code --install-extension angitignored-1.2.0.vsix
+    code --install-extension angitignored-1.2.7.vsix
 
 ## Description
 
@@ -32,7 +32,7 @@ with this `Visual Studio Code` Extension.
 
 Right click on the file to be added in .gitignore :
 
-![UsagePicture](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/Readme_images/Readme01.png)
+![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/Readme_images/Readme01.png)
 
 Select an options :
 

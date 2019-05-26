@@ -6,6 +6,7 @@ src/**
 **/*.map
 .gitignore
 tsconfig.json
-vsc-extension-quickstart.md
 node_modules/**
 desktop.ini
+.ToolsSub/**
+releases/**

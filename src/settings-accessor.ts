@@ -1,4 +1,4 @@
-import { workspace, WorkspaceConfiguration } from 'vscode';
+import { workspace, WorkspaceConfiguration } from "vscode"
 
 import { Pattern } from './pattern.model';
 

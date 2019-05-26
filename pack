@@ -12,7 +12,7 @@
     "version": "1.2.1",
     "publisher": "AnAppWiLos",
     "engines": {
-        "vscode": "^1.22.0"
+        "vscode": "^1.19.0"
     },
     "keywords": [
         "git",
@@ -48,7 +48,7 @@
             },
             {
                 "command": "extension.showGitignored",
-                "title": "Show Gitignored: 👀Show files ignored by .gitignore"
+                "title": "Show Gitignored: 👁‍🗨Show files ignored by .gitignore"
             },
             {
                 "command": "extension.generateGitignored",
@@ -84,13 +84,14 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.32",
+        "@types/node": "^6.0.40",
         "tslint": "^5.8.0",
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6"
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3"
     },
     "dependencies": {
-        "vsce": "^1.62.0"
+        "typescript": "^2.1.1"
     }
 }

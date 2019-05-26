@@ -35,12 +35,23 @@ Right click on the file to be added in .gitignore.
     npm install -g yo
     npm install -g generator-code
     npm install -g vsce 
-    npm install -g typescript
+    #npm install -g typescript
+    npm install -g typescript@2.1.1 
+    
+## Features
+
+- [ ] Files are tracked
 
 ## Commands
 
     vsce package
     code --install-extension angitignored-1.2.0.vsix
+    
+### Automatic update the dependencies
+
+    npm install -g npm-check-updates
+    ncu -u --packageFile package.json
+
  <!--   
     npm install --save-dev @types/node
     npm i @types/mocha

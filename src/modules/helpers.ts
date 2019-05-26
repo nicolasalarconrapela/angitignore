@@ -1,5 +1,4 @@
 import * as os from "os";
-import { window } from "vscode";
 import { readFile } from "./filesystem";
 import { getData } from "./http";
 import { API_URL, BANNER, USER_RULES } from "./config";

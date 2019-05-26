@@ -1,4 +1,4 @@
-import { commands, ExtensionContext, workspace } from 'vscode';
+import { commands, ExtensionContext, workspace } from "vscode";
 
 import { GitignoreReader } from './gitignore-reader';
 import { PatternConverter } from './pattern-converter';

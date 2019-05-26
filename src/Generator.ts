@@ -69,10 +69,10 @@ export default class Generator {
 
         message.dispose();
 
-        if (list === null) {
+        if (list === null) { 
             return window.showErrorMessage(MESSAGES.network_error);
         }
-
+        
         return await this.get(getItemsOption, list);
     }
 

@@ -1,7 +1,7 @@
-// "use strict";
+"use strict";
 
 import * as fs from 'fs';
-import * as vscode from 'vscode';
+import * as vscode from "vscode";
 
 import { ExtensionContext } from 'vscode';
 import { GitignoreHider } from './gitignore-hider';
@@ -19,12 +19,12 @@ export function activate(context: ExtensionContext): void {
         let filePath: string = selectedFile.path.substr(vscode.workspace.rootPath.length + 1, selectedFile.path.length);
         fs.open(vscode.workspace.rootPath + '/.gitignore', 'a', function (err, fd) {
             fs.readFile(vscode.workspace.rootPath + '/.gitignore', 'utf8', function (err, data) {
-                if (data.indexOf(filePath) !== -1) {return;}
-                if (err || data.lastIndexOf('\n') !== data.length - 1) {filePath = '\n' + filePath;}
+                if (data.indexOf(filePath) !== -1) { return; }
+                if (err || data.lastIndexOf('\n') !== data.length - 1) { filePath = '\n' + filePath; }
 
                 let buffer = new Buffer(filePath);
                 fs.write(fd, buffer, 0, buffer.length, null, function (err) {
-                    if (err) throw 'error writing file: ' + err;
+                    if (err) { throw new Error('error writing file: ' + err); }
                     fs.close(fd, function () {
                         console.log('file written');
                     });
@@ -34,7 +34,7 @@ export function activate(context: ExtensionContext): void {
 
     });
     context.subscriptions.push(disposable);
-    
+
     /**
      * Estension for show/hide the archives in .gitignore
      */

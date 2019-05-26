@@ -1,5 +1,5 @@
 import { dirname } from 'path';
-import { TextDocument, workspace } from 'vscode';
+import { TextDocument, workspace } from "vscode";
 
 import { Gitignore } from './gitignore.model';
 

@@ -1,15 +1,15 @@
 {
     "name": "angitignored",
-    "displayName": "An GitIgnored",
+    "displayName": "AnGitIgnored",
     "description": "Tool that facilitates the management of .ignore files",
     "license": "MIT",
     "preview": true,
-    "icon": "images/logoAnGitIgnoredV00000701.png",
+    "icon": "images/logoAnGitIgnoredV00000801.png",
     "galleryBanner": {
         "color": "#373737",
         "theme": "dark"
     },
-    "version": "1.2.1",
+    "version": "1.2.2",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.22.0"
@@ -40,19 +40,19 @@
         "commands": [
             {
                 "command": "extension.addGitignored",
-                "title": "Add Gitignored : ➕Add to .gitignore"
+                "title": "Add GitIgnored : ➕Add to .gitignore"
             },
             {
                 "command": "extension.hideGitignored",
-                "title": "Hide Gitignored: 👻Hide files ignored by .gitignore"
+                "title": "Hide GitIgnored: 👻Hide files ignored by .gitignore"
             },
             {
                 "command": "extension.showGitignored",
-                "title": "Show Gitignored: 👀Show files ignored by .gitignore"
+                "title": "Show GitIgnored: 👀Show files ignored by .gitignore"
             },
             {
                 "command": "extension.generateGitignored",
-                "title": "Generate Gitignored: 📝Generate the file .gitignore"
+                "title": "Generate GitIgnored: 📝Generate the file .gitignore"
             }
         ],
         "menus": {

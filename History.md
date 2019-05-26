@@ -150,8 +150,8 @@ era válida.
 
 ## Fixed 03
 
-Tras una verificación mas exhaustiva del programa el error es producido por un parametro no admitido 
-por la version de vscode :
+Tras una verificación mas exhaustiva del programa el error es producido por un parámetro no admitido 
+por la version de `vscode` :
 
 		/**
 		 * Optional flag indicating if this item is picked initially.
@@ -160,6 +160,28 @@ por la version de vscode :
 		 * @see [QuickPickOptions.canPickMany](#QuickPickOptions.canPickMany)
 		 */
 		picked?: boolean;
+
+Se utiliza las dependencias :
+
+```json 
+{
+    //...
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    //....
+    "devDependencies": {
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^7.0.43",
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6"
+    },
+    "dependencies": {
+        "vsce": "^1.62.0"
+    }
+}
+```
     
 ### Posible soluciones 02
 

@@ -6,10 +6,10 @@
     "preview": true,
     "icon": "images/logoAnGitIgnoredV00000801.png",
     "galleryBanner": {
-        "color": "#373737",
+        "color": "#003152",
         "theme": "dark"
     },
-    "version": "1.2.2",
+    "version": "1.2.5",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.22.0"
@@ -17,12 +17,18 @@
     "keywords": [
         "git",
         "gitHub",
+        "ignore",
+        "gitignore",
         ".gitignore",
         "gitignore.io",
         "gitignore generator"
     ],
     "categories": [
-        "SCM Providers"
+        "SCM Providers",
+        "Programming Languages",
+        "Formatters",
+        "Snippets",
+        "Other"
     ],
     "activationEvents": [
         "*"
@@ -35,6 +41,7 @@
     "bugs": {
         "url": "https://github.com/anappwilos/gitignore.git"
     },
+    "qna": "https://stackoverflow.com/questions/tagged/vscode-extensions",
     "main": "./out/extension",
     "contributes": {
         "commands": [

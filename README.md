@@ -1,6 +1,7 @@
+![Gif](Readme_images/Usage.gif)
 <div align="center">
 
-![Image](/images/logoAnGitIgnoredV00000801.png)
+![Logo-Image](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png)
 
 </div>
 
@@ -18,7 +19,7 @@ Repository that facilitates the management of `.ignore` files.
 
 ## Repositories
 
-[⬇️ Download](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.gitignoreadd)
+[⬇️ Download](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/images/logoAnGitIgnoredV00000801.png)
 
 ## Description
 
@@ -35,7 +36,7 @@ with this `Visual Studio Code` Extension.
 
 Right click on the file to be added in .gitignore :
 
-![Readme1](Readme_images/Readme01.png)
+![UsagePicture](https://raw.githubusercontent.com/anappwilos/gitignore/V010201/Readme_images/Readme01.png)
 
 Select an options :
 

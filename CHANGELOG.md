@@ -1,4 +1,8 @@
 # CHANGELOG - AnGitIgnored
+* `1.2.3` _Update log_
+
+    - Update logo image
+  
 * `1.2.2` _Preparatory for Open Source_
 
     - Update Readme.md

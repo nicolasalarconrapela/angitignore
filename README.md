@@ -2,7 +2,7 @@
 <h1 align="left">AnGitIgnored</h1>
 
 ![GifUsage](https://raw.githubusercontent.com/nicolasalarconrapela/gitignore/master/Readme_images/Usage.gif)
-
+![](images/logoAnGitIgnoredV0000094.png)
 ## About 
 
 Repository that facilitates the management of `.ignore` files.

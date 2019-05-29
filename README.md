@@ -1,7 +1,10 @@
-<img align="right" src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/logoAnGitIgnoredV00000904.png" width="80px" height="80px">
+<img align="right" src="https://cibergenius.org/cibergenius/AnGitIgnored/images/logoAnGitIgnoredV00000904.png" width="80px" height="80px">
 <h1 align="left">AnGitIgnored</h1>
 
-![GifUsage](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Usage.gif)
+![GifUsage](https://cibergenius.org/cibergenius/AnGitIgnored/images/Usage.gif)
+
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/AnAppWiLos.angitignored.svg?color=yellow&label=Version&style=for-the-badge)
+![Visual Studio Marketplace Installs - Azure DevOps Extension](https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/AnAppWiLos.angitignored.svg?color=important&style=for-the-badge)
 
 ## About 
 
@@ -32,7 +35,7 @@ with this `Visual Studio Code` Extension.
 
 Right click on the file to be added in .gitignore :
 
-![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Readme01.png)
+![UsagePicture](https://cibergenius.org/cibergenius/AnGitIgnored/images/Readme01.png)
 
 Select an options :
 

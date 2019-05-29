@@ -19,10 +19,11 @@ export const USER_RULES =
     "Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)";
 
 export const BANNER =
-    "---------------------------------" + "\n" +
+    "--------------------------------------------------------------------------------" + "\n" +
     "# File created using 'AnGitIgnored' extensions for Visual Studio Code: " + "\n" +
-    "# https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.gitignoreadd" + "\n" +
-    "# ---------------------------------";
+    "# https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored " + "\n" +
+    "#-------------------------------------------------------------------------------" + "\n";
+
 
 export const OVERRIDE_OPTIONS = [
     {

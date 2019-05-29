@@ -1,6 +1,6 @@
 # Contributing to AnGitIgnored
 
-ℹ️ [AnGitIgnored](https://cibergenius.org/AnGitIgnored) and want to get involved?
+:information_source: [AnGitIgnored](https://cibergenius.org/AnGitIgnored) and want to get involved?
 
 Thanks! We're actively looking for folks interested in helping out and there are plenty of ways you can help!
 
@@ -12,9 +12,10 @@ the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue or assessing
 patches and features.
 
+
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/nicolasalarconrapela/angitignore/issues) is
+The [issue tracker](https://github.com/nicolasalarconrapela/) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
@@ -96,7 +97,8 @@ accurate comments, etc.) and any other requirements (such as test coverage).
 Adhering to the following process is the best way to get your work
 included in the project:
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the project, clone your fork, and configure the remotes:
+1. [Fork](https://help.github.com/articles/fork-a-repo/) the project, clone your
+   fork, and configure the remotes:
 
    ```bash
    # Clone your fork of the repo into the current directory
@@ -104,7 +106,7 @@ included in the project:
    # Navigate to the newly cloned directory
    cd AnLibrary
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/nicolasalarconrapela/angitignore.git
+   git remote add upstream https://github.com/nicolasalarconrapela/
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -121,4 +123,5 @@ included in the project:
    git checkout -b <topic-branch-name>
    ```
 
-4. Commit your changes in logical chunks. Please adhere to these [git commit message guidelines](https://tbaggery.com/2008/04/1)
+4. Commit your changes in logical chunks. Please adhere to these [git commit
+   message guidelines](https://tbaggery.com/2008/04/1)

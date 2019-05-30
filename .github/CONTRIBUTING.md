@@ -15,7 +15,7 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/nicolasalarconrapela/) is
+The [issue tracker](https://github.com/nicolasalarconrapela/angitignore/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
@@ -104,9 +104,9 @@ included in the project:
    # Clone your fork of the repo into the current directory
    git clone https://github.com/<your-username>/
    # Navigate to the newly cloned directory
-   cd AnLibrary
+   cd angitignore
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/nicolasalarconrapela/
+   git remote add upstream https://github.com/nicolasalarconrapela/angitignore
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

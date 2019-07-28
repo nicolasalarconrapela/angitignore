@@ -8,17 +8,12 @@
 
 ## About 
 
-Repository that facilitates the management of `.ignore` files.
+Extension that generates the `.gitignores` files from the [gitignore.io](https://www.gitignore.io/) API.
 
-## Repositories
+## [Repositories](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored)
 
-[⬇️ Download](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored)
-
-## Install
-
-    # npm install -g vsce
-    vsce package
-    code --install-extension angitignored-1.2.7.vsix
+[ ⬇️Install ](vscode:extension/AnAppWiLos.angitignored)
+[ ⬇️ Download ](https://marketplace.visualstudio.com/_apis/public/gallery/publishers/AnAppWiLos/vsextensions/angitignored/1.2.16/vspackage)
 
 ## Description
 
@@ -47,6 +42,12 @@ Select an options :
 | - `Override`          | **Overwrite** `.gitignore` the selected framework                               |
 | `Hide GitIgnored`     | **HIDES** a the files that are in the `.gitignore`                              |
 | `Show GitIgnored`     | **SHOW** the files that have been hidden because they are in the `.gitignore`   |
+
+## Install
+
+    # npm install -g vsce
+    vsce package
+    code --install-extension angitignored-1.2.7.vsix
 
 ## Developers
 
@@ -79,7 +80,8 @@ Select an options :
 
 ## Features
 
-- [FEATURES](FEATURES)
+- [ ] Add the possibility of use without Internet
+- [ ] Hiding menu options
 
 ## Compilation the bugs
 

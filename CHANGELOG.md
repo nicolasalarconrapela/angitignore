@@ -1,4 +1,7 @@
 # CHANGELOG - AnGitIgnored
+
+* `1.2.17` _Update the security_
+  * Update the README
 * `1.2.3` _Update log_
 
     - Update logo image

@@ -1,4 +1,4 @@
-export const API_URL = "https://www.gitignore.io/api";
+export const API_URL = "https://www.toptal.com/developers/gitignore/api";
 export const FILE_NAME = ".gitignore";
 
 export const MESSAGES = {
@@ -22,7 +22,7 @@ export const BANNER =
     "--------------------------------------------------------------------------------" + "\n" +
     "# File created using 'AnGitIgnored' extensions for Visual Studio Code: " + "\n" +
     "# https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored " + "\n" +
-    "#-------------------------------------------------------------------------------" + "\n";
+    "#-------------------------------------------------------------------------------";
 
 
 export const OVERRIDE_OPTIONS = [

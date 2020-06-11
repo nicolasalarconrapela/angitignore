@@ -9,7 +9,7 @@
         "color": "#003152",
         "theme": "dark"
     },
-    "version": "1.2.17",
+    "version": "1.2.18",
     "publisher": "AnAppWiLos",
     "engines": {
         "vscode": "^1.22.0"
@@ -95,7 +95,9 @@
         "@types/node": "^12.6.8",
         "tslint": "^5.18.0",
         "typescript": "^3.5.3",
-        "vscode": "^1.1.35"
+        "vscode": "^1.1.35",
+        "minimist": ">=0.2.1",
+        "https-proxy-agent": ">=2.2.3"
     },
     "dependencies": {
         "vsce": "^1.66.0"

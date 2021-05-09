@@ -2,8 +2,12 @@
 
 ## V.1.2.19
 
+- Migration of the dependencies `vscode` to `@types/vscode`
+- Fixed : 'potential security vulnerabilities in your dependencies.'
+- README improvements
+
 <details>
-<summary>CHANGELOG of this development</summary>
+<summary><i>CHANGELOG of this development</i></summary>
 
 - `1.2.19-DEV-01` : Repairs and improvements in package.json
   - `package.json` :

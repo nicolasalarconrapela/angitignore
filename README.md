@@ -58,6 +58,7 @@ Select an options :
 
 ### Run this project
 
+    npm run update-vscode
     npm install
 
 ### Tools for developer this project
@@ -70,7 +71,7 @@ Select an options :
 
 ### Automatic update the dependencies
 
-    npm install -g npm-check-updates
+    # npm install -g npm-check-updates
     ncu -u --packageFile package.json
 
 ### Some reference guide to develop extension in VSCode

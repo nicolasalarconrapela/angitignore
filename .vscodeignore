@@ -11,3 +11,7 @@ desktop.ini
 .ToolsSub/**
 releases/**
 images/
+FEATURES
+*.vsix
+*.env
+.github/**

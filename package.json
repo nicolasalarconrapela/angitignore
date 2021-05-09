@@ -1,105 +1,102 @@
 {
-    "name": "angitignored",
-    "displayName": "AnGitIgnored",
-    "description": "Tool that facilitates the management of .ignore files",
-    "license": "MIT",
-    "preview": true,
-    "icon": "Readme_images/logoAnGitIgnoredV00000904.png",
-    "galleryBanner": {
-        "color": "#003152",
-        "theme": "dark"
-    },
-    "version": "1.2.18",
-    "publisher": "AnAppWiLos",
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "keywords": [
-        "git",
-        "gitHub",
-        "ignore",
-        "gitignore",
-        ".gitignore",
-        "gitignore.io",
-        "gitignore generator"
+  "name": "angitignored",
+  "displayName": "AnGitIgnored",
+  "description": "Tool that facilitates the management of .ignore files",
+  "license": "MIT",
+  "preview": true,
+  "icon": "Readme_images/logoAnGitIgnoredV00000904.png",
+  "galleryBanner": {
+    "color": "#003152",
+    "theme": "dark"
+  },
+  "version": "1.2.19-DEV-01",
+  "publisher": "AnAppWiLos",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "keywords": [
+    "git",
+    "gitHub",
+    "ignore",
+    "gitignore",
+    ".gitignore",
+    "gitignore.io",
+    "gitignore generator"
+  ],
+  "categories": [
+    "SCM Providers",
+    "Programming Languages",
+    "Formatters",
+    "Snippets",
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolasalarconrapela/angitignore"
+  },
+  "homepage": "https://github.com/nicolasalarconrapela/angitignore",
+  "bugs": {
+    "url": "https://github.com/nicolasalarconrapela/angitignore/labels/bug"
+  },
+  "qna": "https://stackoverflow.com/questions/tagged/vscode-extensions",
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.addGitignored",
+        "title": "Add GitIgnored : ➕Add to .gitignore"
+      },
+      {
+        "command": "extension.hideGitignored",
+        "title": "Hide GitIgnored: 👻Hide files ignored by .gitignore"
+      },
+      {
+        "command": "extension.showGitignored",
+        "title": "Show GitIgnored: 👀Show files ignored by .gitignore"
+      },
+      {
+        "command": "extension.generateGitignored",
+        "title": "Generate GitIgnored: 📝Generate the file .gitignore"
+      }
     ],
-    "categories": [
-        "SCM Providers",
-        "Programming Languages",
-        "Formatters",
-        "Snippets",
-        "Other"
-    ],
-    "activationEvents": [
-        "*"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/nicolasalarconrapela/angitignore"
-    },
-    "homepage": "https://github.com/nicolasalarconrapela/angitignore",
-    "bugs": {
-        "url": "https://github.com/nicolasalarconrapela/angitignore/labels/bug"
-    },
-    "qna": "https://stackoverflow.com/questions/tagged/vscode-extensions",
-    "main": "./out/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.addGitignored",
-                "title": "Add GitIgnored : ➕Add to .gitignore"
-            },
-            {
-                "command": "extension.hideGitignored",
-                "title": "Hide GitIgnored: 👻Hide files ignored by .gitignore"
-            },
-            {
-                "command": "extension.showGitignored",
-                "title": "Show GitIgnored: 👀Show files ignored by .gitignore"
-            },
-            {
-                "command": "extension.generateGitignored",
-                "title": "Generate GitIgnored: 📝Generate the file .gitignore"
-            }
-        ],
-        "menus": {
-            "explorer/context": [
-                {
-                    "command": "extension.addGitignored",
-                    "group": "navigation"
-                },
-                {
-                    "command": "extension.hideGitignored",
-                    "group": "navigation"
-                },
-                {
-                    "command": "extension.showGitignored",
-                    "group": "navigation"
-                },
-                {
-                    "command": "extension.generateGitignored",
-                    "group": "navigation"
-                }
-            ]
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.addGitignored",
+          "group": "navigation"
+        },
+        {
+          "command": "extension.hideGitignored",
+          "group": "navigation"
+        },
+        {
+          "command": "extension.showGitignored",
+          "group": "navigation"
+        },
+        {
+          "command": "extension.generateGitignored",
+          "group": "navigation"
         }
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "@types/mocha": "^5.2.7",
-        "@types/node": "^12.6.8",
-        "tslint": "^5.18.0",
-        "typescript": "^3.5.3",
-        "vscode": "^1.1.35",
-        "minimist": ">=0.2.1",
-        "https-proxy-agent": ">=2.2.3"
-    },
-    "dependencies": {
-        "vsce": "^1.66.0"
+      ]
     }
+  },
+  "scripts": {
+    "watch": "tsc -watch -p ./",
+    "update-vscode": "npm install @types/vscode",
+    "install-dev": "rm -rf node_modules/ package-lock.json && npm run  update-vscode && npm install -g vsce && npm install",
+    "vscode:prepublish": "tsc -p ./",
+    "vsce:package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.0.2",
+    "@types/vscode": "^1.56.0",
+    "https-proxy-agent": ">=5.0.0",
+    "minimist": ">=1.2.5",
+    "tslint": "^5.20.1",
+    "typescript": "^4.2.4"
+  }
 }

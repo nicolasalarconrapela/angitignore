@@ -20,6 +20,10 @@
       - (-) `vsce`
   - `CHANGELOG` : improvements
   - `.vscodeignore`: improvements
+- `1.2.19-DEV-02` : `README` improvements
+  - (-) FEATURES
+  - (-) History.md
+  - Improvements in Readme.md
 
 </details>
 

@@ -8,8 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.4.0] - 2025-12-30
 ### Added
 - **Marketplace**: Optimized metadata (SEO, categorization, new display name "AnGitIgnored").
-- **Community**: Structured Issue Templates for better bug reporting and feature requests.
+- **Community**: Structured Issue Templates for better bug reporting.
+- **Roadmap**: Announced upcoming Drag & Drop and performance features (Jan 2026).
 ### Fixed
+- **Critical**: `Update` command no longer overwrites existing custom `.gitignore` content without warning.
+- **UX**: Prevented unexpected exit during option selection in the command palette.
 - **Docs**: Broken links in `CONTRIBUTING.md`.
 
 ## [1.3.12] - 2025-12-30

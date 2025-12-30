@@ -15,10 +15,14 @@ src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/i
 
 ## ✨ What's New in 1.4.0
 
+- **Smart Updates**: Fixed specific bug where updating from a template would overwrite existing custom content.
+- **Robust Selection**: Fixed issue where the extension would exit unexpectedly during option selection.
 - **Clean & Fast**: Removed unused dependencies for a lighter extension.
-- **Documentation**: Complete overhaul of README and Contributing guides.
-- **Community**: Added structured Issue Templates for easier reporting.
-- **Security Check**: 0 Vulnerabilities.
+
+## 🚀 Roadmap (January 2026)
+
+- **Drag & Drop**: Support for dragging files to ignore them.
+- **Core improvements**: Performance and stability enhancements.
 
 ## About
 

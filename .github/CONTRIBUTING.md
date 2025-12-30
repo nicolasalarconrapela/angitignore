@@ -1,6 +1,6 @@
 # Contributing to AnGitIgnored
 
-:information_source: [AnGitIgnored](https://cibergenius.org/AnGitIgnored) and want to get involved?
+:information_source: [AnGitIgnored](https://github.com/nicolasalarconrapela/angitignore) and want to get involved?
 
 Thanks! We're actively looking for folks interested in helping out and there are plenty of ways you can help!
 
@@ -124,4 +124,4 @@ included in the project:
    ```
 
 4. Commit your changes in logical chunks. Please adhere to these [git commit
-   message guidelines](https://tbaggery.com/2008/04/1)
+   message guidelines](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)

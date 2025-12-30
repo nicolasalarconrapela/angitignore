@@ -12,7 +12,7 @@ src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/R
   </a>
 </p>
 
-## ✨ What's New in 1.3.13
+## ✨ What's New in 1.4.0
 
 - **Clean & Fast**: Removed unused dependencies for a lighter extension.
 - **Documentation**: Complete overhaul of README and Contributing guides.

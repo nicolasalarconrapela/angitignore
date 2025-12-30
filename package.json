@@ -1,7 +1,7 @@
 {
   "name": "angitignored",
-  "displayName": "angitignored",
-  "description": "Tool that facilitates the management of .ignore files",
+  "displayName": "AnGitIgnored",
+  "description": "Easily create, generate from Toptal API, and manage .gitignore files. Supports custom rules and file hiding.",
   "license": "MIT",
   "preview": false,
   "icon": "images/logoAnGitIgnoredV00000904.png",
@@ -9,7 +9,7 @@
     "color": "#003152",
     "theme": "dark"
   },
-  "version": "1.3.13",
+  "version": "1.4.0",
   "publisher": "AnAppWiLos",
   "engines": {
     "vscode": "^1.56.0"
@@ -20,14 +20,14 @@
     "ignore",
     "gitignore",
     ".gitignore",
+    "toptal",
+    "exclude",
+    "hide files",
     "gitignore.io",
     "gitignore generator"
   ],
   "categories": [
     "SCM Providers",
-    "Programming Languages",
-    "Formatters",
-    "Snippets",
     "Other"
   ],
   "activationEvents": [
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/nicolasalarconrapela/angitignore",
   "bugs": {
-    "url": "https://github.com/nicolasalarconrapela/angitignore/labels/bug"
+    "url": "https://github.com/nicolasalarconrapela/angitignore/issues"
   },
   "qna": "https://stackoverflow.com/questions/tagged/vscode-extensions",
   "main": "./out/extension",

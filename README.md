@@ -16,7 +16,7 @@ src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/R
 
 ## About
 
-Extension that generates the `.gitignores` files from the [gitignore.io](https://www.toptal.com/developers/gitignore) API.
+Extension that generates the `.gitignores` files from the [toptal.com](https://www.toptal.com/developers/gitignore) API (_old gitignore.io API_).
 
 ⬇️ Download it in [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored)
 

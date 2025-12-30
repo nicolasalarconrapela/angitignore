@@ -1,8 +1,9 @@
 <img align="right" 
-src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/logoAnGitIgnoredV00000904.png" width="80px" height="80px">
+src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/images/logoAnGitIgnoredV00000904.png" width="100px" height="100px">
 
 <h1 align="left">angitignored</h1>
 
+<br/>
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored">
     <img src="https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/AnAppWiLos.angitignored.svg?color=85C1E9&style=for-the-badge" alt="Visual Studio Marketplace Installs - Azure DevOps Extension">
@@ -36,7 +37,7 @@ With this extension you can:
 
 ## Usage
 
-![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Usage.gif)
+![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/images/usage.gif)
 
 Right-click on the Explorer to select an option:
 

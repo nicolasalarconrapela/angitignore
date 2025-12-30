@@ -12,6 +12,13 @@ src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/R
   </a>
 </p>
 
+## ✨ What's New in 1.3.13
+
+- **Clean & Fast**: Removed unused dependencies for a lighter extension.
+- **Documentation**: Complete overhaul of README and Contributing guides.
+- **Community**: Added structured Issue Templates for easier reporting.
+- **Security Check**: 0 Vulnerabilities.
+
 ## About
 
 Extension that generates `.gitignore` files using the [toptal.com](https://www.toptal.com/developers/gitignore) API (formerly gitignore.io).

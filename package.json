@@ -1,6 +1,6 @@
 {
   "name": "angitignored",
-  "displayName": "gitignore",
+  "displayName": "angitignored",
   "description": "Easily create, generate from Toptal API, and manage .gitignore files. Supports custom rules and file hiding.",
   "license": "MIT",
   "preview": false,

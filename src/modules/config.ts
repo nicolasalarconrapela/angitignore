@@ -2,8 +2,8 @@ export const API_URL = "https://www.toptal.com/developers/gitignore/api";
 export const FILE_NAME = ".gitignore";
 
 export const MESSAGES = {
-    network_error: "There was a problem reaching gitignore.io. Try again.",
-    fetching: "Fetching list from gitignore.io...",
+    network_error: "There was a problem reaching www.toptal.com. Try again.",
+    fetching: "Fetching list from www.toptal.com...",
     generated: `Your ${FILE_NAME} file has been [action]!`,
     generating: `Generating ${FILE_NAME} file...`,
     save_error: `There was an error while saving ${FILE_NAME} file.`,

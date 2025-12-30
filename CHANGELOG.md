@@ -1,66 +1,73 @@
-# CHANGELOG - AnGitIgnored
+# Changelog
 
-## V.1.2.19
+All notable changes to the "angitignored" extension will be documented in this file.
 
-- Migration of the dependencies `vscode` to `@types/vscode`
-- Fixed : 'potential security vulnerabilities in your dependencies.'
-- README improvements
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-<details>
-<summary><i>CHANGELOG of this development</i></summary>
+## [1.4.0] - 2025-12-30
+### Added
+- **Marketplace**: Optimized metadata (SEO, categorization, new display name "AnGitIgnored").
+- **Community**: Structured Issue Templates for better bug reporting.
+- **Roadmap**: Announced upcoming Drag & Drop and performance features (Jan 2026).
+### Fixed
+- **Critical**: `Update` command no longer overwrites existing custom `.gitignore` content without warning.
+- **UX**: Prevented unexpected exit during option selection in the command palette.
+- **Docs**: Broken links in `CONTRIBUTING.md`.
 
-- `1.2.19-DEV-01` : Repairs and improvements in package.json
-  - `package.json` :
-    - Commands :
-      - (+) `update-vscode`
-      - (+) `install-dev`
-      - (+) `vsce:package`
-      - (~) `vscode:prepublish`
-      - (-) `test`
-      - (-) `postinstall`
-      - (-) `compile`
-    - Dependencies :
-      - Replacing `vscode` with `@types/vscode` ([_Deprecated, use @types/vscode and vscode-test instead_](https://github.com/Microsoft/vscode-extension-vscode#readme))
-      - (-) `vsce`
-  - `CHANGELOG` : improvements
-  - `.vscodeignore`: improvements
-- `1.2.19-DEV-02` : `README` improvements
-  - (-) FEATURES
-  - (-) History.md
-  - Improvements in Readme.md
+## [1.3.12] - 2025-12-30
+### Security
+- Removed unused dev-dependencies (`minimist`, `https-proxy-agent`) to reduce potential attack surface.
 
-</details>
+## [1.3.11] - 2025-12-30
+### Documentation
+- **README**: Complete overhaul. Fixed typos, removed redundant GIFs, clarified usage table, and standardized API references.
+- **Marketplace**: Fixed icon path configuration.
 
-## V.1.2.18
+## [1.3.0] - 2025-12-30
+### Changed
+- **Branding**: Extension renamed to **angitignored** (Publisher: `AnAppWiLos`).
+- **Core**: Migrated API usage to `toptal.com` (formerly gitignore.io).
+- **UX**: Hidden redundant commands from the Command Palette to reduce noise.
+### Fixed
+- `Update` command logic to prevent overwriting custom rules without warning.
 
-- `1.2.17.1` _Update url of the api_
-  - Fixed the images, temporarily, by domain change
-  - API url update
-  - Minor improvements
+---
+## Legacy Versions
 
-## V.1.2.17
+## [1.2.19]
+### Changed
+- **Dependencies**: Migrated `vscode` engine dependency to `@types/vscode`.
+- **Security**: Fixed potential vulnerabilities in dependencies.
+- **Docs**: README improvements.
+### Internal
+- Repairs and improvements in `package.json` scripts (`update-vscode`, `install-dev`, `vsce:package`).
+- Removed deprecated scripts (`test`, `postinstall`, `compile`).
 
-- `1.2.17` _Update the security_
-  - Update the README
+## [1.2.18]
+- Fixed API URL and images temporarily due to domain change.
+- Minor improvements.
 
-## V.1.2.16
+## [1.2.17]
+- Security updates.
+- README cleanup.
 
-- `1.2.3` _Update logo_
-  - Update logo image
+## [1.2.16]
+- Updated extension logo.
 
-- `1.2.2` _Preparatory for Open Source_
-  - Update Readme.md
-  - Update of .github
-  - FIXED: Error with 'canPickMany: true'
-  - HISTORY is added
-  - Minor errors are refactor
+## [1.2.2]
+- **Open Source Prep**: Updated `.github` configs and README.
+- **Fix**: Resolved error with `canPickMany: true`.
+- Added HISTORY file.
 
-- `1.2.0.` _We add version of .gitignore generation_
-  - Generation version of .gitignore is added
+## [1.2.0]
+- Added versioning for `.gitignore` generation.
 
-- `1.1.0.` _First changes of names and aggregation of Show/Hide_
-  - It is going to proceed to the name change to `AnGitIgnored`
-  - It adds the possibility to see / hide the files of `.gitignore`
-  - Elimination of `test`
+## [1.1.0]
+### Changed
+- **Branding**: Renamed project to `AnGitIgnored`.
+- **Feature**: Added Show/Hide functionality for ignored files.
+- Removed `test` script.
 
-- `1.0.1.` _Update code and change author(18 Enero 2018)_
+## [1.0.1] - 2018-01-18
+- Initial code update and author change.

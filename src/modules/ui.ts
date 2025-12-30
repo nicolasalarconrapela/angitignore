@@ -7,6 +7,7 @@ export function getFolderOption(folders) {
 
   return window.showQuickPick(options, {
     placeHolder: PLACEHOLDERS.location,
+    ignoreFocusOut: true
   });
 }
 
@@ -14,6 +15,7 @@ export function getOverrideOption() {
   return window
     .showQuickPick(OVERRIDE_OPTIONS, {
       placeHolder: PLACEHOLDERS.override,
+      ignoreFocusOut: true
     })
     .then(option => {
       if (option === undefined) {
@@ -26,12 +28,13 @@ export function getOverrideOption() {
 
 export function getItemsOption(items: QuickPickItem[]) {
   return window
-    
-        .showQuickPick(items,
-             {
-            canPickMany: true,            
-            placeHolder: PLACEHOLDERS.selection_hint,
-        })
+
+    .showQuickPick(items,
+      {
+        canPickMany: true,
+        placeHolder: PLACEHOLDERS.selection_hint,
+        ignoreFocusOut: true
+      })
     .then(selected => {
       if (selected === undefined || selected.length === 0) {
         return undefined;

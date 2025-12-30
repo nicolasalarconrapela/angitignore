@@ -10,7 +10,6 @@ node_modules/**
 desktop.ini
 .ToolsSub/**
 releases/**
-images/
 FEATURES
 *.vsix
 *.env

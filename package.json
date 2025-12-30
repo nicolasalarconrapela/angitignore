@@ -1,15 +1,15 @@
 {
   "name": "angitignored",
-  "displayName": "AnGitIgnored",
-  "description": "Tool that facilitates the management of .ignore files",
+  "displayName": "gitignore",
+  "description": "Easily create, generate from Toptal API, and manage .gitignore files. Supports custom rules and file hiding.",
   "license": "MIT",
-  "preview": true,
-  "icon": "Readme_images/logoAnGitIgnoredV00000904.png",
+  "preview": false,
+  "icon": "images/logoAnGitIgnoredV00000904.png",
   "galleryBanner": {
     "color": "#003152",
     "theme": "dark"
   },
-  "version": "1.2.19",
+  "version": "1.4.0",
   "publisher": "AnAppWiLos",
   "engines": {
     "vscode": "^1.56.0"
@@ -20,14 +20,14 @@
     "ignore",
     "gitignore",
     ".gitignore",
+    "toptal",
+    "exclude",
+    "hide files",
     "gitignore.io",
     "gitignore generator"
   ],
   "categories": [
     "SCM Providers",
-    "Programming Languages",
-    "Formatters",
-    "Snippets",
     "Other"
   ],
   "activationEvents": [
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/nicolasalarconrapela/angitignore",
   "bugs": {
-    "url": "https://github.com/nicolasalarconrapela/angitignore/labels/bug"
+    "url": "https://github.com/nicolasalarconrapela/angitignore/issues"
   },
   "qna": "https://stackoverflow.com/questions/tagged/vscode-extensions",
   "main": "./out/extension",
@@ -47,38 +47,60 @@
     "commands": [
       {
         "command": "extension.addGitignored",
-        "title": "Add GitIgnored : ➕Add to .gitignore"
+        "title": "➕ Add to .gitignore",
+        "category": "AnGitIgnored"
       },
       {
         "command": "extension.hideGitignored",
-        "title": "Hide GitIgnored: 👻Hide files ignored by .gitignore"
+        "title": "👻 Hide files ignored by .gitignore",
+        "category": "AnGitIgnored"
       },
       {
         "command": "extension.showGitignored",
-        "title": "Show GitIgnored: 👀Show files ignored by .gitignore"
+        "title": "👀 Show files ignored by .gitignore",
+        "category": "AnGitIgnored"
       },
       {
         "command": "extension.generateGitignored",
-        "title": "Generate GitIgnored: 📝Generate the file .gitignore"
+        "title": "📝 Generate the file .gitignore",
+        "category": "AnGitIgnored"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "angitignored.submenu",
+        "label": "AnGitIgnored"
       }
     ],
     "menus": {
-      "explorer/context": [
+      "commandPalette": [
         {
           "command": "extension.addGitignored",
-          "group": "navigation"
-        },
+          "when": "false"
+        }
+      ],
+      "explorer/context": [
         {
-          "command": "extension.hideGitignored",
+          "submenu": "angitignored.submenu",
           "group": "navigation"
-        },
+        }
+      ],
+      "angitignored.submenu": [
         {
-          "command": "extension.showGitignored",
-          "group": "navigation"
+          "command": "extension.addGitignored",
+          "group": "1_modification"
         },
         {
           "command": "extension.generateGitignored",
-          "group": "navigation"
+          "group": "1_modification"
+        },
+        {
+          "command": "extension.hideGitignored",
+          "group": "2_visibility"
+        },
+        {
+          "command": "extension.showGitignored",
+          "group": "2_visibility"
         }
       ]
     }
@@ -91,11 +113,8 @@
     "vsce:package": "vsce package"
   },
   "devDependencies": {
-    "@types/mocha": "^8.2.2",
     "@types/node": "^15.0.2",
     "@types/vscode": "^1.56.0",
-    "https-proxy-agent": ">=5.0.0",
-    "minimist": ">=1.2.5",
     "tslint": "^5.20.1",
     "typescript": "^4.2.4"
   }

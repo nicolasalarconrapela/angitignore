@@ -1,78 +1,91 @@
 <img align="right" 
-src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/logoAnGitIgnoredV00000904.png" width="80px" height="80px">
+src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/images/logoAnGitIgnoredV00000904.png" width="100px" height="100px">
 
-<h1 align="left">AnGitIgnored</h1>
+<h1 align="left">angitignored</h1>
 
-![GifUsage](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Usage.gif)
-
+<br/>
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored">
     <img src="https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/AnAppWiLos.angitignored.svg?color=85C1E9&style=for-the-badge" alt="Visual Studio Marketplace Installs - Azure DevOps Extension">
   </a>
-  <a href="#">
+  <a href="https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored&ssr=false#version-history">
     <img src="https://img.shields.io/visual-studio-marketplace/v/AnAppWiLos.angitignored.svg?color=success&label=Version&style=for-the-badge" alt="Visual Studio Marketplace Version">
   </a>
 </p>
 
+## ✨ What's New in 1.4.0
+
+- **Smart Updates**: Fixed specific bug where updating from a template would overwrite existing custom content.
+- **Robust Selection**: Fixed issue where the extension would exit unexpectedly during option selection.
+- **Clean & Fast**: Removed unused dependencies for a lighter extension.
+
+## 🚀 Roadmap (January 2026)
+
+- **Drag & Drop**: Support for dragging files to ignore them.
+- **Core improvements**: Performance and stability enhancements.
+
 ## About
 
-Extension that generates the `.gitignores` files from the [gitignore.io](https://www.toptal.com/developers/gitignore) API.
+Extension that generates `.gitignore` files using the [toptal.com](https://www.toptal.com/developers/gitignore) API (formerly gitignore.io).
 
 ⬇️ Download it in [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AnAppWiLos.angitignored)
 
 ## Description
 
-You can :
+With this extension you can:
 
-- Add specif file in `.gitignore`
-- Create an blank `.gitignore`
-- Generate/Update file `.gitignore` from [gitignore.io](https://www.toptal.com/developers/gitignore)
-- Show/Hide the files in the `.gitignore`
-
-with this `Visual Studio Code` Extension.
+- **Create** a blank `.gitignore` file.
+- **Generate/Update** `.gitignore` from [toptal.com](https://www.toptal.com/developers/gitignore) selections.
+- **Add specific files** to `.gitignore`.
+- **Show/Hide** ignored files in the VS Code Explorer.
 
 ## Usage
 
-![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/Readme_images/Usage.gif)
+![UsagePicture](https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/images/usage.gif)
 
-Right click on the  Explorer in order to selected an option :
+Right-click on the Explorer to select an option:
 
-| Action                | Description                                                                     |
-| --------------------- | ------------------------------------------------------------------------------- |
-| `Add GitInored`       | **CREATE** a blank `.gitignore`                                                 |
-| `Generate GitIgnored` | **GENERATE** a `.gitignore` from the files that we select in the command window |
-| - `⬆️ Update`          | **Add** the selected framework to `.gitignore`                                  |
-| - `🔄 Override`        | **Overwrite** `.gitignore` the selected framework                               |
-| `Hide GitIgnored`     | **HIDES** a the files that are in the `.gitignore`                              |
-| `Show GitIgnored`     | **SHOW** the files that have been hidden because they are in the `.gitignore`   |
+| Action | Description |
+| :--- | :--- |
+| `➕ Add to .gitignore` | **Creates** a blank `.gitignore` or adds selected file to it. |
+| `📝 Generate the file .gitignore` | **Generates** a `.gitignore` based on your selection (OS, IDEs, Languages). |
+| `👻 Hide files ignored...` | **Hides** files listed in `.gitignore` from the view. |
+| `👀 Show files ignored...` | **Shows** files that were hidden by the extension. |
+
+> **Note:** When using **Generate**, if a `.gitignore` already exists, you will be asked to:
+> - `⬆️ Update`: Add new rules keeping your existing ones.
+> - `🔄 Override`: Completely overwrite the file.
 
 ## Developer
 
 ### 🔨 Quick install
 
-    # npm install -g node@latest 
-    # npm install -g npm@latest
-    npm run update-vscode
-    npm install
+```bash
+npm run update-vscode
+npm install
+```
   
 ### 📦 Packaging
 
-    # npm install -g vsce
-    vsce package
-    code --install-extension angitignored-<version>.vsix
+```bash
+vsce package
+# Install locally:
+code --install-extension angitignored-<version>.vsix
+```
 
 ### ♻️ Update dependencies
 
-    # npm install -g npm-check-updates
-    ncu -u --packageFile package.json
+```bash
+ncu -u --packageFile package.json
+```
 
 ## Help
 
-Some reference guide to develop extension in VSCode
+Reference guides for VS Code extension development:
 
 - [code.visualstudio.com](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
-- [medium.com](https://medium.com/@Ealsur/extensiones-en-visual-studio-code-39463fee452e)
-- [geeks.ms](https://geeks.ms/jorge/2017/07/17/crear-nuestra-primera-extension-para-visual-studio-code-i/)
+- [medium.com](https://medium.com/@Ealsur/extensiones-en-visual-studio-code-39463fee452e) (Spanish)
+- [geeks.ms](https://geeks.ms/jorge/2017/07/17/crear-nuestra-primera-extension-para-visual-studio-code-i/) (Spanish)
 
 ## License
 
@@ -81,11 +94,5 @@ Some reference guide to develop extension in VSCode
 ---
 
 <div align=center>
-<table class=bannerparthead>
-    <td class=runninghead noWrap>
-      <div align=justify>
-      Written with ❤️ by AnAppWiLos
-      </div>
-    </td>
-  </table>
+  Written with ❤️ by AnAppWiLos
 </div>

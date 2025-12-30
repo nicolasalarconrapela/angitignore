@@ -3,13 +3,13 @@
   "displayName": "angitignored",
   "description": "Tool that facilitates the management of .ignore files",
   "license": "MIT",
-  "preview": true,
-  "icon": "Readme_images/logoAnGitIgnoredV00000904.png",
+  "preview": false,
+  "icon": "images/logoAnGitIgnoredV00000904.png",
   "galleryBanner": {
     "color": "#003152",
     "theme": "dark"
   },
-  "version": "1.3.10",
+  "version": "1.3.11",
   "publisher": "AnAppWiLos",
   "engines": {
     "vscode": "^1.56.0"

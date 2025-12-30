@@ -41,7 +41,7 @@ Right click on the  Explorer in order to selected an option :
 | --------------------- | ------------------------------------------------------------------------------- |
 | `Add GitInored`       | **CREATE** a blank `.gitignore`                                                 |
 | `Generate GitIgnored` | **GENERATE** a `.gitignore` from the files that we select in the command window |
-| - `⬆️ Update`          | **Add** the selected framework to `.gitignore`                                  |
+| `⬆️ Update`          | **Add** the selected framework to `.gitignore`                                  |
 | - `🔄 Override`        | **Overwrite** `.gitignore` the selected framework                               |
 | `Hide GitIgnored`     | **HIDES** a the files that are in the `.gitignore`                              |
 | `Show GitIgnored`     | **SHOW** the files that have been hidden because they are in the `.gitignore`   |

@@ -9,7 +9,7 @@
     "color": "#003152",
     "theme": "dark"
   },
-  "version": "1.2.19",
+  "version": "1.3.1",
   "publisher": "AnAppWiLos",
   "engines": {
     "vscode": "^1.56.0"
@@ -47,38 +47,54 @@
     "commands": [
       {
         "command": "extension.addGitignored",
-        "title": "Add GitIgnored : ➕Add to .gitignore"
+        "title": "➕ Add to .gitignore",
+        "category": "AnGitIgnored"
       },
       {
         "command": "extension.hideGitignored",
-        "title": "Hide GitIgnored: 👻Hide files ignored by .gitignore"
+        "title": "👻 Hide files ignored by .gitignore",
+        "category": "AnGitIgnored"
       },
       {
         "command": "extension.showGitignored",
-        "title": "Show GitIgnored: 👀Show files ignored by .gitignore"
+        "title": "👀 Show files ignored by .gitignore",
+        "category": "AnGitIgnored"
       },
       {
         "command": "extension.generateGitignored",
-        "title": "Generate GitIgnored: 📝Generate the file .gitignore"
+        "title": "📝 Generate the file .gitignore",
+        "category": "AnGitIgnored"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "angitignored.submenu",
+        "label": "AnGitIgnored"
       }
     ],
     "menus": {
       "explorer/context": [
         {
+          "submenu": "angitignored.submenu",
+          "group": "navigation"
+        }
+      ],
+      "angitignored.submenu": [
+        {
           "command": "extension.addGitignored",
-          "group": "navigation"
-        },
-        {
-          "command": "extension.hideGitignored",
-          "group": "navigation"
-        },
-        {
-          "command": "extension.showGitignored",
-          "group": "navigation"
+          "group": "1_modification"
         },
         {
           "command": "extension.generateGitignored",
-          "group": "navigation"
+          "group": "1_modification"
+        },
+        {
+          "command": "extension.hideGitignored",
+          "group": "2_visibility"
+        },
+        {
+          "command": "extension.showGitignored",
+          "group": "2_visibility"
         }
       ]
     }

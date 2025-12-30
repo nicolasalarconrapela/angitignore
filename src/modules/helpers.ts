@@ -64,11 +64,25 @@ export function getUserRules(filePath) {
         return null;
     }
 
-    const result = file.split(USER_RULES)[1];
+    if (file.includes(USER_RULES)) {
+        const result = file.split(USER_RULES)[1];
+        return result ? result.trim() : null;
+    }
 
-    console.log(result);
+    const endOfGitignoreIoRegex = /^# End of https:\/\/.*$/m;
+    const match = endOfGitignoreIoRegex.exec(file);
 
-    return result ? result.trim() : null;
+    if (match) {
+        const endIndex = match.index + match[0].length;
+        const customContent = file.substring(endIndex).trim();
+        return customContent.length > 0 ? customContent : null;
+    }
+
+    if (!file.includes("AnAppWiLos")) {
+        return file.trim();
+    }
+
+    return null;
 }
 
 export function getSelectedItems(

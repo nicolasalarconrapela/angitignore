@@ -19,7 +19,7 @@ src="https://raw.githubusercontent.com/nicolasalarconrapela/angitignore/master/i
 - **Robust Selection**: Fixed issue where the extension would exit unexpectedly during option selection.
 - **Clean & Fast**: Removed unused dependencies for a lighter extension.
 
-## 🚀 Roadmap (January 2026)
+## 🚀 Roadmap
 
 - **Drag & Drop**: Support for dragging files to ignore them.
 - **Core improvements**: Performance and stability enhancements.
